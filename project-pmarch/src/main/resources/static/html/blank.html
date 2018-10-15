@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		<meta charset="UTF-8">
+        <style>
+            ::-moz-selection {background: #b3d4fc; text-shadow: none;}
+            ::selection {background: #b3d4fc; text-shadow: none;}
+            html {padding: 30px 10px; font-size: 16px; line-height: 1.4; color: #737373; background: #f0f0f0;
+                -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+            html,
+            input {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+            body {max-width:700px; _width: 700px; padding: 30px 20px 50px; border: 1px solid #b3b3b3;
+                border-radius: 4px;margin: 0 auto; box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+                background: #fcfcfc;}
+            h1 {margin: 0 10px; font-size: 50px; text-align: center;}
+            h1 span {color: #bbb;}
+            h2 {color: #D35780;margin: 0 10px;font-size: 40px;text-align: center;}
+            h2 span {color: #bbb;font-size: 80px;}
+            h3 {margin: 1.5em 0 0.5em;}
+            p {margin: 1em 0;}
+            ul {padding: 0 0 0 40px;margin: 1em 0;}
+            .container {max-width: 380px;_width: 480px;margin: 0 auto;}
+            input::-moz-focus-inner {padding: 0;border: 0;}
+        </style>
+    </head>
+    <body>
+            <table border="4">
+                    <tr>
+                      <th WIDTH="600" HEIGHT="30">
+                        Regiones y Actividades
+                        <td WIDTH="600" HEIGHT="30">
+                          <center>
+                                <form action="404.html">
+      
+                                        <label for="actividad">Actividad</label>
+                                        <select id="country" name="country">
+                                          <option value="sodo_rural">Sodo rural</option>
+                                          <option value="aventura">Aventura</option>
+                                          
+                                        </select>
+                                </form>
+                          </center>
+                        </td>
+                        <td WIDTH="600" HEIGHT="30">
+                          <center>
+                                <form action="404.html">
+      
+                                        <label for="Continente">Localizacion</label>
+                                        <select id="country" name="country">
+                                          <option value="Norte">Norte</option>
+                                          <option value="Sur">Sur</option>
+                                          
+                                        </select>
+                                </form>
+                          </center>
+                        </td>
+                        <td WIDTH="600" HEIGHT="30">
+                                <center>
+                                      <form action="404.html">
+            
+                                              <label for="provincias">Provincias</label>
+                                              <select id="country" name="country">
+                                                <option value="andalucia">Andalucia</option>
+                                                <option value="baleares">Baleares</option>
+                                                
+                                              </select>
+                                      </form>
+                                </center>
+                              </td>
+                      </th>
+                    </tr>
+                  </table>
+                  <br/>
+                  <br/>
+                  <!-- Script para la Fecha  -->
+                  <script> 
+                
+                    var mydate = new Date();
+                    var year = mydate.getYear();
+                    if (year < 1000)
+                      year += 1900;
+                    var day = mydate.getDay();
+                    var month = mydate.getMonth() + 1;
+                    if (month < 10)
+                      month = "0" + month;
+                    var daym = mydate.getDate();
+                    if (daym < 10)
+                      daym = "0" + daym;
+                    document.write("<small><font color='000000' face='Arial'><b>" + daym + "/" + month + "/" + year + "</b></font></small>")
+                  </script>
+                  <!-- Título informativo -->
+                  <table border="0">
+                    <tr>
+                      <td WIDTH="1920" HEIGHT="50">
+                        <h1>
+                          <ins>Resumen</ins>
+                        </h1>
+                        <!-- gif animado -->
+                        <center ALIGN="right">
+                          <img src="" />
+                        </center>
+                      </td>
+                    </tr>
+                  </table>
+                </body>
+                <!-- Fin del cuerpo de noticias -->
+                <p>
+                        <a href="index.html">Búsqueda</a>
+                       </p>
+                </html>
+</html>
